@@ -1,0 +1,65 @@
+/* General styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EAE3D1; /* Light beige */
+  }
+  
+  /* Background image for the login page */
+  .login-background {
+    background-image: url('background.jpg'); /* Add your background image */
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Logo in the top left corner */
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px; /* Adjust as per your requirement */
+  }
+  
+  /* Login container styling */
+  .login-container {
+    width: 320px;
+    padding: 30px;
+    background-color: #C2B7B1; /* Muted teal */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form input fields */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    background-color: #fff;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #E07A5F; /* Terracotta red */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #C45D3A; /* Darker terracotta */
+  }
+  
